@@ -20,19 +20,8 @@ class EvilDragon extends Dragon {
 }
 
 
-const enderDragon = new EvilDragon(
-  "Ender Dragon",
-  "black", [
-    "spit a fireball at Steve",
-    "rule over all the Endermen",
-    "destroy all blocks in its way"
-  ],
-  "Steve"
-);
-console.log(enderDragon);
-enderDragon.dontInviteThemOverForDinner();
-console.log(enderDragon.breathesFire());
-console.log(enderDragon.burnsNemesis());
+
+
 
 /**********************************************************/
 
